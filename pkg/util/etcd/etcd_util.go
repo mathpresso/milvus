@@ -231,6 +231,7 @@ func StartTestEmbedEtcdServer() (*embed.Etcd, string, error) {
 	config.Dir = dir
 	config.LogLevel = "warn"
 	config.LogOutputs = []string{"default"}
+	/*
 	u, err := url.Parse("http://localhost:0")
 	if err != nil {
 		return nil, "", err
@@ -241,7 +242,7 @@ func StartTestEmbedEtcdServer() (*embed.Etcd, string, error) {
 		return nil, "", err
 	}
 	config.LPUrls = []url.URL{*u}
-
+        */
 	server, err := embed.StartEtcd(config)
 	return server, dir, err
 }
