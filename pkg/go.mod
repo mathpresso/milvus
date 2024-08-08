@@ -1,4 +1,4 @@
-module github.com/milvus-io/milvus/pkg
+module github.com/mathpresso/milvus/pkg
 
 go 1.21
 
