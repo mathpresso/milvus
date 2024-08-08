@@ -61,7 +61,7 @@ require (
 	github.com/cockroachdb/redact v1.1.3
 	github.com/greatroar/blobloom v0.0.0-00010101000000-000000000000
 	github.com/jolestar/go-commons-pool/v2 v2.1.2
-	github.com/milvus-io/milvus/pkg v0.0.2-0.20240801085213-a642a26ed4c6
+	github.com/mathpresso/milvus/pkg v0.0.2-0.20240801085213-a642a26ed4c6
 	github.com/pkg/errors v0.9.1
 	github.com/remeh/sizedwaitgroup v1.0.0
 	github.com/tidwall/gjson v1.17.1
@@ -248,7 +248,7 @@ replace (
 	github.com/go-kit/kit => github.com/go-kit/kit v0.1.0
 	github.com/greatroar/blobloom => github.com/milvus-io/blobloom v0.0.0-20240603110411-471ae49f3b93
 	github.com/ianlancetaylor/cgosymbolizer => github.com/milvus-io/cgosymbolizer v0.0.0-20240722103217-b7dee0e50119
-	github.com/milvus-io/milvus/pkg => ./pkg
+	github.com/mathpresso/milvus/pkg => ./pkg
 	github.com/streamnative/pulsarctl => github.com/xiaofan-luan/pulsarctl v0.5.1
 	github.com/tecbot/gorocksdb => github.com/milvus-io/gorocksdb v0.0.0-20220624081344-8c5f4212846b // indirect
 )
